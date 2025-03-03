@@ -10,6 +10,29 @@ body {
 	overflow: hidden;
 }
 
+.instruction {
+	position: absolute;
+	/* background-color: red; */
+	left: 1rem;
+	top: 1rem;
+	font-size: 12px;
+}
+
+.icon {
+	height: 60px;
+	width: 60px;
+}
+
+.player1 {
+	display: flex;
+	align-items: center;
+}
+
+.player2 {
+	display: flex;
+	align-items: center;
+}
+
 .gameArea {
 	position: absolute;
 	width: 600px;

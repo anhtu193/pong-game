@@ -27,7 +27,7 @@
 			src="script.js"
 			defer
 		></script>
-		<title>JavaScript Pong Game</title>
+		<title>A simple Pong Game</title>
 	</head>
 	<body>
 		<h1 class="title">PONG</h1>
@@ -41,7 +41,35 @@
 			id="player2Score"
 			>0</span
 		>
-		<h3 class="startText">Press any key to start the game</h3>
+		<div class="instruction">
+			<div class="player1">
+				<p>Player 1:</p>
+				<img
+					src="assets/letter-w.png"
+					alt="W key"
+					class="icon"
+				/>
+				<img
+					src="assets/letter-s.png"
+					class="icon"
+					alt="S key"
+				/>
+			</div>
+			<div class="player2">
+				<p>Player 2:</p>
+				<img
+					src="assets/up-arrow.png"
+					alt="Up arrow key"
+					class="icon"
+				/>
+				<img
+					src="assets/down-arrow.png"
+					class="icon"
+					alt="Down key"
+				/>
+			</div>
+		</div>
+		<h3 class="startText">Press any key to start</h3>
 		<div class="gameArea">
 			<div class="paddle1 paddle"></div>
 			<div class="paddle2 paddle"></div>
